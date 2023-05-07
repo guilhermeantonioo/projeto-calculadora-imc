@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculara de IMC</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+        <main>
+            <div id="img"><img src="assets/img/ilustração.svg" alt="ilustração"></div>
+           <div id="form">
+                <h1>Calcule seu IMC</h1>
+                <div id="campo">
+                   <section>
+                       <i class="fa-solid fa-weight-hanging"></i>
+                       <label for="weight"> Seu peso em Kg</label>
+                       <input type="number" name="weight" id="weight">
+                   </section>
+                    
+                    <section>
+                        <i class="fa-sharp fa-solid fa-ruler"></i>
+                        <label for="height">Sua altura em metros </label>
+                        <input type="number" name="height" id="height">
+                    </section>
+                </div>
+                <div id="btn">
+                    <button id="calcular">Calcular</button>
+                </div>
+                <div class="line"></div>
+                <div id="esconder" class="hidden"> 
+                    <div id="res">
+                        <span>Seu IMC:</span>
+                        <span id="value"></span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                    <div class="links">
+                          <a href="https://www.tuasaude.com/imc/">Clique aqui para saiber mais sobre o IMC</a>
+                         <a href="https://github.com/guilhermeantonioo">Eu, Guilherme Antônio</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
